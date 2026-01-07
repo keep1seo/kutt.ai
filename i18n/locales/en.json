@@ -1,0 +1,1199 @@
+{
+  "app": {
+    "title": "Pixelfox Video",
+    "header": {
+      "menus": [
+        {
+          "title": "Home",
+          "path": "/",
+          "icon": "HomeFilled"
+        },
+        {
+          "title": "Features",
+          "path": "/features",
+          "icon": "YoutubeOutlined",
+          "children": [
+            {
+              "title": "Special Video",
+              "path": "/features/special-video",
+              "icon": "FireOutlined",
+              "desc": "Add special effects to your video"
+            },
+            {
+              "title": "Video Generation",
+              "path": "/features/video-generate",
+              "icon": "VideoCameraOutlined",
+              "desc": "Generate video from text"
+            },
+            {
+              "title": "Image Generation",
+              "path": "/features/img-generate",
+              "icon": "PictureOutlined",
+              "desc": "Generate image from text"
+            },
+            {
+              "title": "Digital Human",
+              "path": "/features/digital-human",
+              "icon": "RobotOutlined",
+              "desc": "Create custom digital human"
+            },
+            {
+              "title": "Lip Sync",
+              "path": "/features/lip-sync",
+              "icon": "SoundOutlined",
+              "desc": "Sync the voice of the video with the lip sync of the person in the video"
+            },
+            {
+              "title": "Action Mimic",
+              "path": "/features/action-mimic",
+              "icon": "SwapOutlined",
+              "desc": "Mimic the action of the person in the video to other videos"
+            }
+          ]
+        },
+        {
+          "title": "Generate",
+          "path": "/generate",
+          "icon": "Edit"
+        },
+        {
+          "title": "Price",
+          "path": "/price",
+          "icon": "MoneyCollectOutlined"
+        }
+      ],
+      "language": "Language",
+      "menu": "Menu",
+      "login": "Login",
+      "userCenter": "User Center",
+      "logout": "Logout",
+      "user": "User",
+      "getFreePoints": "Get Free Points",
+      "profile": "Profile",
+      "change_pass": "Change Password",
+      "get_points_for_free": "Get Points for Free",
+      "administrators": "Administrators"
+    },
+    "passwordModal": {
+      "change_pass": "Change Password",
+      "old_pass": "Old Password",
+      "please_input_old_pass": "Please enter old password",
+      "new_pass": "New Password",
+      "please_input_new_pass": "Please enter new password",
+      "confirm_pass": "Confirm Password",
+      "once_again_input_new_pass": "Please enter new password again",
+      "cancel": "Cancel",
+      "save": "Save",
+      "pass_require_5_8_not_nul": "Password must be 5-18 non-whitespace characters",
+      "input_pass_inconsistent": "The two passwords do not match",
+      "change_pass_success": "Password changed successfully",
+      "change_pass_failed": "Failed to change password"
+    },
+    "footer": {
+      "description": "Professional AI video generation platform, making creativity limitless",
+      "product": {
+        "title": "Product",
+        "links": [
+          {
+            "title": "Special Video",
+            "path": "/features/special-video"
+          },
+          {
+            "title": "Video Generation",
+            "path": "/features/video-generate"
+          },
+          {
+            "title": "Image Generation",
+            "path": "/features/img-generate"
+          },
+          {
+            "title": "Digital Human",
+            "path": "/features/digital-human"
+          }
+        ]
+      },
+      "company": {
+        "title": "Company",
+        "links": [
+          {
+            "title": "About Us",
+            "path": "/about"
+          },
+          {
+            "title": "Contact",
+            "path": "/contact"
+          },
+          {
+            "title": "Blog",
+            "path": "/blog"
+          },
+          {
+            "title": "Careers",
+            "path": "/careers"
+          }
+        ]
+      },
+      "support": {
+        "title": "Support",
+        "links": [
+          {
+            "title": "Help Center",
+            "path": "/help"
+          },
+          {
+            "title": "Documentation",
+            "path": "/docs"
+          },
+          {
+            "title": "API",
+            "path": "/api"
+          },
+          {
+            "title": "Pricing",
+            "path": "/price"
+          }
+        ]
+      },
+      "legal": {
+        "links": [
+          {
+            "title": "Privacy Policy",
+            "path": "/privacy"
+          },
+          {
+            "title": "Terms of Service",
+            "path": "/terms"
+          },
+          {
+            "title": "Refund and Fraud Policy",
+            "path": "/refund-and-fraud-policy"
+          }
+        ]
+      },
+      "copyright": "© {year} Pixelfox Video. All rights reserved."
+    }
+  },
+  "dialog": {
+    "login": {
+      "title": "Pixelfox.AI",
+      "subtitle": "One-Click Image Editing",
+      "form_title": "WELCOME BACK",
+      "form_subtitle": "Log In to your Account",
+      "account": "Account",
+      "password": "Password",
+      "account_placeholder": "Enter your account",
+      "password_placeholder": "Enter your password",
+      "login": "Login",
+      "no_account": "Don't have an account?",
+      "signup": "Sign up",
+      "tags": [
+        "Multi-style Model Portrait Generation",
+        "Scene-based Product Imagery Creation",
+        "Localized Image Redesign",
+        "Person & Object Removal",
+        "One-Click Smart Masking",
+        "AI Facial Beautification"
+      ]
+    },
+    "register": {
+      "title": "Free Sign Up",
+      "form_title": "Create Your Account",
+      "form_subtitle": "No Credit Card Required – Get 10 Free Credits on Signup!",
+      "account": "Account",
+      "code": "Verification Code",
+      "password": "Password",
+      "account_placeholder": "Enter your account",
+      "password_placeholder": "Enter your password",
+      "code_placeholder": "Enter verification code",
+      "send_code": "Send Code",
+      "send_code_success": "Verification code sent successfully",
+      "register": "Sign Up",
+      "has_account": "Already have an account?",
+      "login": "Log In",
+      "banner": [
+        {
+          "content":
+          "I recently had the opportunity tos were beyond impressive. The ease of use coupled with the accuracy and quality of the output truly blew me away.",
+          "name": "Emily S.",
+          "user": "Digital Artist",
+          "avatar": "https://api.pixelfox.ai/template/user/user-thumb-1.webp"
+        },
+        {
+          "content":
+          "I recently had the opportunity to utilize it, and I must say, the results were beyond impressive. The ease of use coupled with the accuracy and quality of the output truly blew me away.",
+          "name": "John D.",
+          "user": "Product Photographer",
+          "avatar": "https://api.pixelfox.ai/template/user/user-thumb-2.webp"
+        },
+        {
+          "content":
+          "I recently had the opportunity to utilize it, had the opportunity to utili and I must say, the results were beyond impressive. The ease of use coupled with the accuracy and quality of the output truly blew me away.",
+          "name": "Rachel W.",
+          "user": "Shop Owner",
+          "avatar": "https://api.pixelfox.ai/template/user/user-thumb-3.webp"
+        }
+      ]
+    }
+  },
+  "page": {
+    "index": {
+      "title": "Free AI Edit photos/video online free",
+			"description": "Pixelfox AI is one of the best free AI image/video editor tool, which is designed to auto edit images, photos and video. Start editing photos Now.",
+			"keywords": "AI Photo Editor, AI Image Editor, free AI Photo Editor, AI Photo Editor Free, Best AI Photo Editor, Free AI Image Editor",
+      "header": {
+        "title": "CHOOSE YOUR PLAN",
+        "subtitle": "With AI technology, Pixelfox makes it easy for everyone to create professional product\n        photography, dedicated AI clothing models and build their own brand!"
+      },
+      "easier": {
+        "title": "Helping creators & businesses everywhere work easier",
+        "list": [
+          {
+            "title": "Tiktok logo",
+            "img": "https://api.pixelfox.ai/template/logos/TikTok.png"
+          },
+          {
+            "title": "CornellUniversity logo",
+            "img": "https://api.pixelfox.ai/template/logos/CornellUniversity.png"
+          },
+          {
+            "title": "Amazon logo",
+            "img": "https://api.pixelfox.ai/template/logos/Amazon.png"
+          },
+          {
+            "title": "YouTube logo",
+            "img": "https://api.pixelfox.ai/template/logos/YouTube.png"
+          },
+          {
+            "title": "Google logo",
+            "img": "https://api.pixelfox.ai/template/logos/Google.png"
+          },
+          {
+            "title": "Instagram logo",
+            "img": "https://api.pixelfox.ai/template/logos/Instagram.png"
+          },
+          {
+            "title": "Linkedin logo",
+            "img": "https://api.pixelfox.ai/template/logos/Linkedin.png"
+          },
+          {
+            "title": "Microsoft logo",
+            "img": "https://api.pixelfox.ai/template/logos/Microsoft.png"
+          }
+        ]
+      },
+      "case": {
+        "tab": [
+          {
+            "label": "Featured",
+            "value": 1
+          },
+          {
+            "label": "Camera Control",
+            "value": 2
+          },
+          {
+            "label": "Special Effects",
+            "value": 3
+          },
+          {
+            "label": "Digital Human",
+            "value": 4
+          },
+          {
+            "label": "Lip Sync",
+            "value": 5
+          },
+          {
+            "label": "Action Mimic",
+            "value": 6
+          },
+          {
+            "label": "Image Generation",
+            "value": 7
+          },
+          {
+            "label": "Product Rendering",
+            "value": 8
+          }
+        ]
+      },
+      "ability": {
+        "main_title": "The Essence",
+        "subtitle": "Photo Editor with a Comprehensive Toolkit",
+        "desc": "Pixelfox is your all-in-one free AI photo retoucher and HD online photo editor, designed for seamless photo retouching and creative edits. Whether you want to retouch photos, remove backgrounds, upscale images, or generate stunning AI art, our AI editing photos toolkit has you covered. With no downloads required, you can edit photos online free anytime, anywhere. From quick photo retouch fixes to advanced ai edit photo transformations, Pixelfox makes it easy. Start using our photo retoucher today and take your creativity to the next level with the best free AI photo editor experience!",
+        "list": [
+          {
+            "title": "10M",
+            "desc": "Images processed",
+            "icon": "https://api.pixelfox.ai/template/home/Picture.webp"
+          },
+          {
+            "title": "5-Second",
+            "desc": "Processing",
+            "icon": "https://api.pixelfox.ai/template/home/heart.webp"
+          },
+          {
+            "title": "95%",
+            "desc": "Satisfaction Rate",
+            "icon": "https://api.pixelfox.ai/template/home/badge.webp"
+          }
+        ]
+      },
+      "remove": {
+        "title": "How to Edit an Image with PixelFox AI Text Prompts?",
+        "desc": "PixelFox AI Photo editor turns editing your images as simple as telling it what you want. There are only three steps to complete to update any picture with your words:",
+        "list": [
+          {
+            "image": "https://api.pixelfox.ai/template/home/step_1.webp",
+            "title": "Upload Your Image",
+            "desc": "Click “Upload” or drag and drop your image. PixelFox AI Photo editor with text prompts supports JPG, PNG, GIF, or WEBP of up to 20MB or 4096x 4096 dimension."
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/home/step_2.webp",
+            "title": "Type Your Prompt",
+            "desc": "Write in your own words in your own style. Examples: Any of: make me look like a cartoon, remove the background, add a cyberpunk city as a background."
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/home/step_3.webp",
+            "title": "Generate & Download",
+            "desc": "Have PixelFox AI Photo Modifier analyzed your photo within seconds. Check out the preview, save your quality result, and share or recycle it immediately."
+          }
+        ]
+      },
+      "highlight": {
+        "main_title": "AI Image Editing ",
+        "subtitle": "with Text Prompts",
+        "list": [
+          {
+            "image": "https://api.pixelfox.ai/template/image-edit/edit1.webp",
+            "title": "Edit with Natural Language Prompts",
+            "desc": "No complicated toolsets, menus or layers to learn though, with PixelFox you can edit an image by telling what to do instead. Feel like to turn the sky into a galaxy? Or make it snowy background? It is just like typing it out, and the AI will take it further.This drag and drop interface reduces the threshold in performing ultimate editing; it is desirable by the users who are not design experts. You can use PixelFox to produce not only social media content, but also digital art, and hastily made product mockups, and PixelFox will convert all your directions into exactly the right edits that are visually harmonious with each other.",
+            "linkText": "Try now",
+            "linkUrl": "/image/image-edit/edit"
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/image-edit/edit2.webp",
+            "title": "Smart Image Context Awareness",
+            "desc": "PixelFox doesn’t simply change pixels, but knows about the image. Our AI thoroughly examines the lighting, the shadows, the facial structure, the background details, placement of objects on each image to ensure that all the edits blend into the original.To illustrate it, when you pose to say, you would like to change the background to be a sunset, the system will automatically alter the lighting and the shadows in the subject to being warm as sunsets appear. That way even radical changes look natural, photorealistic, and situationally appropriate. The result? Pictures that not only appear to be edited, but which appear that they were photographed in that way.",
+            "linkText": "Try now",
+            "linkUrl": "/image/image-edit/edit"
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/image-edit/edit3.webp",
+            "title": "Advanced Model Fusion for Superior Results",
+            "desc": "PixelFox has a rare mix of accuracy and creativity because InstructPix2Pix, the model used for textual editing, and Stable Diffusion Img2Img, the model meant to fix the image, have the strengths and weaknesses of both models and are optimally combined through PixelFox.It has this bimodal architecture that makes your corrections more accurate as compared to your prompt and it is also of high visual accuracy. Its performance is out of this world when working with various types of images: selfies, portraits, landscape photos, fashion and product images, and even digital arts. Regardless of how strong your request is, expect sharp edges, even tones, and a small amount of artifacts.",
+            "linkText": "Try now",
+            "linkUrl": "/image/image-edit/edit"
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/image-edit/edit4.webp",
+            "title": "Multi-Image Composition Support",
+            "desc": "Want to design layered marketing visuals, concept art, or banners in social media? PixelFox enables you to mix or combine several images with ease. Just post pictures of what you desire to be merged and explain what you see- e.g. paste picture of this man against a beach background or make a merge between these two merchandises on a wooden table.Our AI takes into account perspective, size, lighting, smoothness to edges to form a natural composition that appears to be consistent and professionally designed. This comes in particularly handy in e-commerce, advertisements and visual narrative media where consistency of the visual is imperative.",
+            "linkText": "Try now",
+            "linkUrl": "/image/image-edit/edit"
+          }
+        ]
+      },
+      "feature": {
+        "list": [
+          {
+            "image": "https://api.pixelfox.ai/template/home/icon-feature-1.svg",
+            "title": "Lightning-Fast Processing",
+            "desc": "AI edits finish in just 10–30 seconds, allowing you to rapidly explore multiple creative directions."
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/home/icon-feature-2.svg",
+            "title": "No Design Experience Needed",
+            "desc": "Beginners and pros alike can achieve studio-quality results with zero learning curve."
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/home/icon-feature-3.svg",
+            "title": "Custom Control Options",
+            "desc": "Adjust strength, transformation intensity, aspect ratio, and more for tailored results."
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/home/icon-feature-4.svg",
+            "title": "Secure & Private Editing",
+            "desc": "Uploaded images are auto-deleted within hours—your content is never used or shared without consent."
+          }
+        ]
+      },
+      "toolset": {
+        "main_title": "Powerful AI",
+        "subtitle": "Photo Editor With Full Toolset",
+        "desc": "All useful editing tools are ready in one single photo editor online HD - Pixelfox AI. See what our pic editor online can do and try them for FREE!",
+        "button": "Explore all tools",
+        "list": [
+          {
+            "title": " Expand Image ",
+            "desc": "Effortlessly uncrop and expand images within senconds to create stunning images",
+            "img": "https://api.pixelfox.ai/template/image-extender/feature_5.webp",
+            "svg": "icon-kuozhan",
+            "link": "/image/extender"
+          },
+          {
+            "title": "Image Enhancer ",
+            "desc": "Enhance images quality to improve clarity, color, and resolution easily",
+            "img": "https://api.pixelfox.ai/template/image-enhancer/feat_6.webp",
+            "svg": "icon-zengqiangbeifen",
+            "link": "/image/enhancer"
+          },
+          {
+            "title": " Photo Upscale",
+            "desc": "Enlarge your images by 200% or 400% without losing quality",
+            "img": "https://api.pixelfox.ai/template/image-upscaler/feat_1.webp",
+            "svg": "icon-fangda",
+            "link": "/image/upscaler"
+          },
+          {
+            "title": "Photo Colorizer",
+            "desc": "Colorize old Photos and Black & White Images Easily online",
+            "img": "https://api.pixelfox.ai/template/colorizeimage/feature_3.webp",
+            "svg": "icon-shangse1",
+            "link": "/image/colorizer"
+          },
+          {
+            "title": "Style Transfer",
+            "desc": "Turn images into artworks with famous painter styles and effects",
+            "img": "https://api.pixelfox.ai/template/extendimagestyle/feature_1.webp",
+            "svg": "icon-tuxiangfenggezhuanhuan",
+            "link": "/image/style-transfer"
+          },
+          {
+            "title": " Image Colour Changer",
+            "desc": "Change image colors and explore endless possibilities",
+            "img": "https://api.pixelfox.ai/template/recolorimage/feature_1.webp",
+            "svg": "icon-kuaisuxiutu",
+            "link": "/image/recolor"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "list": [
+          {
+            "title": "What can I do with PixelFox AI Image Editor?",
+            "content": "Remove or edit backgrounds, edit styles, insert or delete objects, combine images, cartoonify faces, improve the quality and much more; just type what you desire."
+          },
+          {
+            "title": "How realistic are the AI-generated edits?",
+            "content": "Very realistic. PixelFox AI evaluates the shadows, lightings, and depth to implement results quality that meets the original context of the photo."
+          },
+          {
+            "title": "Can I use the AI-edited images commercially?",
+            "content": "Yes. Every outcome of a paid plan has a complete commercial usage license in the form of marketing, print, eCommerce, or virtually any business guarantee."
+          },
+          {
+            "title": "Can I use Pixelfox AI Text to Image Converter for commercial projects?",
+            "content": "Absolutely! AI generated images can be used in personal & commercial projects like marketing campaigns, educational resources, creative designs, and more."
+          },
+          {
+            "title": "What file formats and sizes are supported?",
+            "content": "JPEG, PNG, GIF and WEBP support is complete up to 20MB and 4096x4096 resolution."
+          },
+          {
+            "title": "What if the edit doesn’t match my expectation?",
+            "content": "Clean up writing something a bit more clearly or ways to divide the complicated revisions into a small sequence. PixelFox also allows you the chance to repower up alternatives until you get what you desire."
+          }
+        ]
+      }
+    },
+    "price": {
+      "title": "Price",
+      "description": "Assist with tasks such as programming code development, creative writing, and document processing, supporting file uploads and long-text conversations to provide efficient AI support anytime.",
+      "keywords": "Large language models, natural language processing, AI chatbots, code development, creative writing, AI assistants, long-text conversations, document processing AI, large model companies, artificial intelligence, AI development assistants",
+      "config": {
+        "title": "CHOOSE YOUR PLAN",
+        "desc": "With AI technology, Pixelfox makes it easy for everyone to create professional product photography, dedicated AI clothing models and build their own brand!",
+        "standard": {
+          "title": "Standard",
+          "mostPopular": "Most Popular",
+          "hobby": {
+            "title": "Free Plan",
+            "desc": "For personal or non-commercial projects",
+            "free": {
+              "title": "Free",
+              "tags": [
+                "Register to receive 10 bonus credits",
+                "Unlimited free image and video processing and preview without generation features",
+                "Unlimited downloads"
+              ]
+            },
+            "buttonText": "Sign Up for Free",
+            "footerTips": "Forever free – for personal or one-time projects"
+          },
+          "pro": {
+            "title": "Pro Plan",
+            "desc": "Pro Plan",
+            "credit": " Credits",
+            "creditType": [
+              {
+                "title": "Web",
+                "type": "web"
+              },
+              {
+                "title": "IOS",
+                "type": "ios"
+              },
+              {
+                "title": "Android",
+                "type": "android"
+              },
+              {
+                "title": "API",
+                "type": "api"
+              }
+            ],
+            "creditTips": "Credits are shared across Web, Mobile Apps, and API",
+            "payMonthly": "Monthly",
+            "payYearly": "Yearly",
+            "unit": "Credits / Month",
+            "off": "Save 50%",
+            "viewMore": "View More",
+            "collapse": "Collapse",
+            "everything": "All benefits in the Free Plan, plus",
+            "everythingTags": [
+              "Fixed monthly credits (unused credits can carry over to the next cycle)",
+              "Download HD images and full videos"
+            ],
+            "buttonText": "Subscribe Now",
+            "footerTips": "Choose any credit level according to your monthly needs.<br />As long as you are subscribed, credits can be carried over to the next billing cycle."
+          },
+          "flexible": {
+            "title": "Flexible Plan",
+            "desc": "Pay as You Go",
+            "credit": " Credits",
+            "creditType": [
+              {
+                "title": "Web",
+                "type": "web"
+              },
+              {
+                "title": "IOS",
+                "type": "ios"
+              },
+              {
+                "title": "Android",
+                "type": "android"
+              },
+              {
+                "title": "API",
+                "type": "api"
+              }
+            ],
+            "creditTips": "Credits are shared across Web, Mobile Apps, and API",
+            "unit": " Credits",
+            "viewMore": "View More",
+            "collapse": "Collapse",
+            "everything": "All benefits in the Free Plan, plus",
+            "everythingTags": [
+              "Pay as you go, no monthly payments required",
+              "Credits are valid for 1 years and can be reactivated at any time",
+              "Download HD images and full videos"
+            ],
+            "buttonText": "Buy Now",
+            "footerTips": "One-time purchase to scale your business"
+          },
+          "payment": {
+            "title": "Select Payment Method",
+            "subtitle": "Please select your preferred payment method to complete your purchase"
+          }
+        },
+        "custom": {
+          "title": "Custom",
+          "subtitle": "Custom Plans",
+          "desc": "Looking to customize your usage? Please contact us!",
+          "buttonText": "Submit Request",
+          "tips": "By clicking submit, you agree that you have read and accepted our <a href=\"#\">Terms of Service</a> and <a href=\"#\">Privacy Policy</a>. By submitting, you consent to receive marketing emails from Pixelfox. You can unsubscribe at any time by clicking \"Unsubscribe\" in the emails.",
+          "form": [
+            {
+              "key": "first_name",
+              "label": "First Name",
+              "type": "text",
+              "placeholder": "Please enter your first name",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "Please enter your first name",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "last_name",
+              "label": "Last Name",
+              "type": "text",
+              "placeholder": "Please enter your last name",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "Please enter your last name",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "email",
+              "label": "Business Email",
+              "type": "text",
+              "placeholder": "Please enter your business email",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "Please enter your email",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "website",
+              "label": "Company Website",
+              "type": "text",
+              "placeholder": "Please enter your company website",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "Please enter your company website",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "user_number",
+              "label": "Monthly Image and Video Usage",
+              "type": "select",
+              "placeholder": "Please select your monthly usage",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "Please select",
+                  "trigger": "blur"
+                }
+              ],
+              "options": [
+                {
+                  "label": "0-100",
+                  "value": 1
+                },
+                {
+                  "label": "101-500",
+                  "value": 2
+                },
+                {
+                  "label": "501-1000",
+                  "value": 3
+                },
+                {
+                  "label": "1001-3000",
+                  "value": 4
+                },
+                {
+                  "label": "3000+",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "key": "server",
+              "label": "Our Services",
+              "type": "tags",
+              "placeholder": "Select the services you are interested in",
+              "required": false,
+              "rule": [],
+              "options": [
+                {
+                  "label": "AI Model - Mannequin",
+                  "value": 1
+                },
+                {
+                  "label": "Al Model -Flatlay",
+                  "value": 2
+                },
+                {
+                  "label": "Al Background Generator",
+                  "value": 3
+                },
+                {
+                  "label": "Al lmage Extender",
+                  "value": 4
+                },
+                {
+                  "label": "Video Quality Enhancer",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "key": "scene",
+              "label": "Application Scenario",
+              "type": "text",
+              "placeholder": "Please describe your application scenario",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "Please describe your application scenario",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "where_know_me",
+              "label": "How Did You Hear About Us?",
+              "type": "select",
+              "placeholder": "Please select how you heard about us",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "Please select how you heard about us",
+                  "trigger": "blur"
+                }
+              ],
+              "options": [
+                {
+                  "label": "Web Search",
+                  "value": 1
+                },
+                {
+                  "label": "Social Media",
+                  "value": 2
+                },
+                {
+                  "label": "Podcast",
+                  "value": 3
+                },
+                {
+                  "label": "Word of Mouth / Referral",
+                  "value": 4
+                },
+                {
+                  "label": "Community",
+                  "value": 5
+                },
+                {
+                  "label": "Other",
+                  "value": 6
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "generate": {
+      "title": "AI Video & Image Generation - Free Online Generator",
+      "description": "Create stunning AI-generated videos and images with Pixelfox. Generate videos from text, create digital humans, sync lip movements, and mimic actions. Free AI generation tools for creators.",
+      "keywords": "AI video generation, AI image generation, digital human, lip sync, action mimic, free AI generator, text to video, AI video creator, video generation tool, image generation tool"
+    }
+  },
+  "pages": {
+    "price": {
+      "title": "Price",
+      "description": "",
+      "keywords": "Price",
+      "config": {
+        "title": "CHOOSE YOUR PLAN",
+        "desc": "With AI technology, Pixelfox makes it easy for everyone to create professional product photography, dedicated AI clothing models and build their own brand!",
+        "standard": {
+          "title": "Standard",
+          "mostPopular": "Most Popular",
+          "hobby": {
+            "title": "Free Plan",
+            "desc": "For personal or non-commercial projects",
+            "free": {
+              "title": "Free",
+              "tags": [
+                "Register to receive 10 bonus credits",
+                "Unlimited free image and video processing and preview without generation features",
+                "Unlimited downloads"
+              ]
+            },
+            "buttonText": "Sign Up for Free",
+            "footerTips": "Forever free – for personal or one-time projects"
+          },
+          "pro": {
+            "title": "Pro Plan",
+            "desc": "Pro Plan",
+            "credit": " Credits",
+            "creditType": [
+              {
+                "title": "Web",
+                "type": "web"
+              },
+              {
+                "title": "IOS",
+                "type": "ios"
+              },
+              {
+                "title": "Android",
+                "type": "android"
+              },
+              {
+                "title": "API",
+                "type": "api"
+              }
+            ],
+            "creditTips": "Credits are shared across Web, Mobile Apps, and API",
+            "payMonthly": "Monthly",
+            "payYearly": "Yearly",
+            "unit": "Credits / Month",
+            "off": "Save 50%",
+            "viewMore": "View More",
+            "collapse": "Collapse",
+            "everything": "All benefits in the Free Plan, plus",
+            "everythingTags": [
+              "Fixed monthly credits (unused credits can carry over to the next cycle)",
+              "Download HD images and full videos"
+            ],
+            "buttonText": "Subscribe Now",
+            "footerTips": "Choose any credit level according to your monthly needs.<br />As long as you are subscribed, credits can be carried over to the next billing cycle."
+          },
+          "flexible": {
+            "title": "Flexible Plan",
+            "desc": "Pay as You Go",
+            "credit": " Credits",
+            "creditType": [
+              {
+                "title": "Web",
+                "type": "web"
+              },
+              {
+                "title": "IOS",
+                "type": "ios"
+              },
+              {
+                "title": "Android",
+                "type": "android"
+              },
+              {
+                "title": "API",
+                "type": "api"
+              }
+            ],
+            "creditTips": "Credits are shared across Web, Mobile Apps, and API",
+            "unit": " Credits",
+            "viewMore": "View More",
+            "collapse": "Collapse",
+            "everything": "All benefits in the Free Plan, plus",
+            "everythingTags": [
+              "Pay as you go, no monthly payments required",
+              "Credits are valid for 1 years and can be reactivated at any time",
+              "Download HD images and full videos"
+            ],
+            "buttonText": "Buy Now",
+            "footerTips": "One-time purchase to scale your business"
+          },
+          "payment": {
+            "title": "Select Payment Method",
+            "subtitle": "Please select your preferred payment method to complete your purchase"
+          }
+        },
+        "custom": {
+          "title": "Custom",
+          "subtitle": "Custom Plans",
+          "desc": "Looking to customize your usage? Please contact us!",
+          "buttonText": "Submit Request",
+          "tips": "By clicking submit, you agree that you have read and accepted our <a href=\"#\">Terms of Service</a> and <a href=\"#\">Privacy Policy</a>. By submitting, you consent to receive marketing emails from Pixelfox. You can unsubscribe at any time by clicking \"Unsubscribe\" in the emails.",
+          "form": [
+            {
+              "key": "first_name",
+              "label": "First Name",
+              "type": "text",
+              "placeholder": "Please enter your first name",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "Please enter your first name",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "last_name",
+              "label": "Last Name",
+              "type": "text",
+              "placeholder": "Please enter your last name",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "Please enter your last name",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "email",
+              "label": "Business Email",
+              "type": "text",
+              "placeholder": "Please enter your business email",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "Please enter your email",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "website",
+              "label": "Company Website",
+              "type": "text",
+              "placeholder": "Please enter your company website",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "Please enter your company website",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "user_number",
+              "label": "Monthly Image and Video Usage",
+              "type": "select",
+              "placeholder": "Please select your monthly usage",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "Please select",
+                  "trigger": "blur"
+                }
+              ],
+              "options": [
+                {
+                  "label": "0-100",
+                  "value": 1
+                },
+                {
+                  "label": "101-500",
+                  "value": 2
+                },
+                {
+                  "label": "501-1000",
+                  "value": 3
+                },
+                {
+                  "label": "1001-3000",
+                  "value": 4
+                },
+                {
+                  "label": "3000+",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "key": "server",
+              "label": "Our Services",
+              "type": "tags",
+              "placeholder": "Select the services you are interested in",
+              "required": false,
+              "rule": [],
+              "options": [
+                {
+                  "label": "AI Model - Mannequin",
+                  "value": 1
+                },
+                {
+                  "label": "Al Model -Flatlay",
+                  "value": 2
+                },
+                {
+                  "label": "Al Background Generator",
+                  "value": 3
+                },
+                {
+                  "label": "Al lmage Extender",
+                  "value": 4
+                },
+                {
+                  "label": "Video Quality Enhancer",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "key": "scene",
+              "label": "Application Scenario",
+              "type": "text",
+              "placeholder": "Please describe your application scenario",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "Please describe your application scenario",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "where_know_me",
+              "label": "How Did You Hear About Us?",
+              "type": "select",
+              "placeholder": "Please select how you heard about us",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "Please select how you heard about us",
+                  "trigger": "blur"
+                }
+              ],
+              "options": [
+                {
+                  "label": "Web Search",
+                  "value": 1
+                },
+                {
+                  "label": "Social Media",
+                  "value": 2
+                },
+                {
+                  "label": "Podcast",
+                  "value": 3
+                },
+                {
+                  "label": "Word of Mouth / Referral",
+                  "value": 4
+                },
+                {
+                  "label": "Community",
+                  "value": 5
+                },
+                {
+                  "label": "Other",
+                  "value": 6
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "user": {
+      "credit": "Credit",
+      "balance": "Balance",
+      "pointExpirationTime": "Point Expiration Time",
+      "info": "Basic Info",
+      "account": "Account Binding",
+      "rechargeLog": "Recharge Log",
+      "consumptionLog": "Consumption Log",
+      "subscribeLog": "Subscribe Log",
+      "inviteRewardLog": "Invite Reward Log",
+      "screenshotLog": "Screenshot Log",
+      "nickname": "Nickname",
+      "gender": "Gender",
+      "email": "Email",
+      "personal_profile": "Personal Profile",
+      "please_enter_nickname": "Please enter nickname",
+      "please_select_gender": "Please select gender",
+      "please_enter_email": "Please enter email",
+      "please_enter_personal_profile": "Please enter personal profile",
+      "man": "Male",
+      "woman": "Female",
+      "delete_user": "Delete Account",
+      "warning": "Warning",
+      "delete_user_text": "After deleting the account, all data cannot be recovered, please operate with caution!",
+      "delete_user_confirm_text": "Are you sure you want to delete your account? This operation is irreversible and all data will be permanently deleted!",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "delete_user_success": "Account deleted successfully",
+      "delete_user_failed": "Failed to delete account",
+      "saving": "Saving",
+      "save_changes": "Save Changes",
+      "save_success": "Save Success",
+      "save_failed": "Save Failed",
+      "confidential_mobile_phone": "Confidential Mobile Phone",
+      "already_bound_phone": "Already Bound Phone",
+      "go_modify_it": "Go Modify It",
+      "confidential_email": "Confidential Email",
+      "already_bound_email": "Already Bound Email",
+      "security_question": "Security Question",
+      "no_security_issue_set": "No Security Question Set",
+      "go_set_it_up": "Go Set It Up",
+      "bind_QQ": "Bind QQ",
+      "currently_unbound_QQ_account": "Currently Unbound QQ Account",
+      "go_bind_it": "Go Bind It",
+      "bind_wechat": "Bind WeChat",
+      "currently_unbound_wechat_account": "Currently Unbound WeChat Account",
+      "bind_alipay": "Bind Alipay",
+      "currently_unbound_alipay_account": "Currently Unbound Alipay Account",
+      "title": "Title",
+      "amount": "Amount",
+      "pay_amount": "Pay Amount",
+      "pay_time": "Pay Time",
+      "total": "Total",
+      "records": "records",
+      "memo": "Memo",
+      "score": "Score",
+      "before": "Before",
+      "after": "After",
+      "create_time": "Create Time",
+      "no_data": "No Data",
+      "img": "Image",
+      "share_url": "Share URL",
+      "status": "Status",
+      "description": "Description",
+      "price": "Price",
+      "action": "Action",
+      "normal": "Normal",
+      "cancelled": "Cancelled",
+      "unsubscribe": "Unsubscribe",
+      "cancel_text": "Are you sure you want to cancel the subscription? This operation is irreversible",
+      "unsubscribe_success": "Unsubscribe Success",
+      "type": "Type"
+    },
+    "share": {
+      "how_do_work": "How does it work?",
+      "eveyone_sign_in_send_points": "Daily Check-in: Earn Points Every Day!",
+      "sign_in": "CHECK IN NOW",
+      "sign_in_success": "Sign in successful",
+      "sign_in_failed": "Sign in failed",
+      "on_social_share": "Share on Social Media",
+      "invite_friend_register": "Invite 1 friend to register",
+      "score": "Credits",
+      "text_image_video_generation": "Text, Image & Video Generation",
+      "invite_friend_subscription": "Invite 1 friend to subscribe",
+      "earn_30_commission": "Earn 30% commission.",
+      "invite_now": "Invite Now.",
+      "copy": "Copy",
+      "copy_success": "Copy Success",
+      "copy_error": "Copy Error",
+      "register_get_free_score": "Sign up now and receive free credits",
+      "view_more_rewards": "View More Rewards",
+      "check_more_rewards": "Explore More Rewards",
+      "faq_h_t_o": "FAQ (How It Works)",
+      "can_get_rewards_q": "Can I accumulate rewards by sharing on social media?",
+      "can_get_rewards_a": "Absolutely! For each verified social media post, you can earn 10 credits. By sharing the link on your favorite social media platforms, you can earn up to 10 credits in total.",
+      "can_get_rewards_q1": "How many credits can I get for writing a Pixelfox.AI review?",
+      "can_get_rewards_a1": "By posting fact-based, product-focused Pixelfox.AI reviews on G2 and Chrome Web Store, you can earn 10 credits per verified review. Only 1 review post per platform will be accepted.",
+      "can_get_rewards_q2": "How do I claim rewards after posting links or reviews on social media?",
+      "can_get_rewards_a2": "Navigate to the \"Rewards\" tab in Account Settings and look for the \"Upload Screenshot\" button. Provide proof of your social media post or product review for our support team to verify and apply the credits to your account.",
+      "can_get_rewards_q3": "How does Pixelfox.AI's \"Invite Friends\" feature work?",
+      "can_get_rewards_a3": "When you invite friends who successfully register a Pixelfox.AI account, both you and your friend will receive free credits. If the invitee subscribes to one of our paid plans and completes payment, you both will receive additional credit rewards.",
+      "can_get_rewards_q4": "How can I track my invitation progress?",
+      "can_get_rewards_a4": "You can monitor your invitation progress anytime in the \"Rewards\" tab under Account Settings. Track the number of registrations, successful subscriptions through your referral link, and total credits earned from the program."
+    }
+  }
+}

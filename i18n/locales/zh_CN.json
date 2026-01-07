@@ -1,0 +1,1199 @@
+{
+  "app": {
+    "title": "Pixelfox Video",
+    "header": {
+      "menus": [
+        {
+          "title": "首页",
+          "path": "/",
+          "icon": "HomeFilled"
+        },
+        {
+          "title": "功能",
+          "path": "/features",
+          "icon": "YoutubeOutlined",
+          "children": [
+            {
+              "title": "特效视频",
+              "path": "/features/special-video",
+              "icon": "FireOutlined",
+              "desc": "添加特效到你的视频"
+            },
+            {
+              "title": "视频生成",
+              "path": "/features/video-generate",
+              "icon": "VideoCameraOutlined",
+              "desc": "根据文本生成视频"
+            },
+            {
+              "title": "图片生成",
+              "path": "/features/img-generate",
+              "icon": "PictureOutlined",
+              "desc": "根据文本生成图片"
+            },
+            {
+              "title": "数字人",
+              "path": "/features/digital-human",
+              "icon": "RobotOutlined",
+              "desc": "创建自定义数字人"
+            },
+            {
+              "title": "对口型",
+              "path": "/features/lip-sync",
+              "icon": "SoundOutlined",
+              "desc": "将视频中的语音与视频中的人物唇形同步"
+            },
+            {
+              "title": "动作模仿",
+              "path": "/features/action-mimic",
+              "icon": "SwapOutlined",
+              "desc": "将视频中的人物动作模仿到其他视频中"
+            }
+          ]
+        },
+        {
+          "title": "生成",
+          "path": "/generate",
+          "icon": "Edit"
+        },
+        {
+          "title": "价格",
+          "path": "/price",
+          "icon": "MoneyCollectOutlined"
+        }
+      ],
+      "language": "语言",
+      "menu": "菜单",
+      "login": "登录",
+      "userCenter": "个人中心",
+      "logout": "退出登录",
+      "user": "用户",
+      "getFreePoints": "获取免费积分",
+      "profile": "个人资料",
+      "change_pass": "修改密码",
+      "get_points_for_free": "获取免费积分",
+      "administrators": "管理员"
+    },
+    "passwordModal": {
+      "change_pass": "修改密码",
+      "old_pass": "旧密码",
+      "please_input_old_pass": "请输入旧密码",
+      "new_pass": "新密码",
+      "please_input_new_pass": "请输入新密码",
+      "confirm_pass": "确认密码",
+      "once_again_input_new_pass": "请再次输入新密码",
+      "cancel": "取消",
+      "save": "保存",
+      "pass_require_5_8_not_nul": "密码必须为5-18位非空白字符",
+      "input_pass_inconsistent": "两次输入密码不一致",
+      "change_pass_success": "修改密码成功",
+      "change_pass_failed": "修改密码失败"
+    },
+    "footer": {
+      "description": "专业的AI视频生成平台，让创意无限可能",
+      "product": {
+        "title": "产品",
+        "links": [
+          {
+            "title": "特效视频",
+            "path": "/features/special-video"
+          },
+          {
+            "title": "视频生成",
+            "path": "/features/video-generate"
+          },
+          {
+            "title": "图片生成",
+            "path": "/features/img-generate"
+          },
+          {
+            "title": "数字人",
+            "path": "/features/digital-human"
+          }
+        ]
+      },
+      "company": {
+        "title": "公司",
+        "links": [
+          {
+            "title": "关于我们",
+            "path": "/about"
+          },
+          {
+            "title": "联系我们",
+            "path": "/contact"
+          },
+          {
+            "title": "博客",
+            "path": "/blog"
+          },
+          {
+            "title": "招聘",
+            "path": "/careers"
+          }
+        ]
+      },
+      "support": {
+        "title": "支持",
+        "links": [
+          {
+            "title": "帮助中心",
+            "path": "/help"
+          },
+          {
+            "title": "文档",
+            "path": "/docs"
+          },
+          {
+            "title": "API",
+            "path": "/api"
+          },
+          {
+            "title": "价格",
+            "path": "/price"
+          }
+        ]
+      },
+      "legal": {
+        "links": [
+          {
+            "title": "隐私政策",
+            "path": "/privacy"
+          },
+          {
+            "title": "服务条款",
+            "path": "/terms"
+          },
+          {
+            "title": "退款和欺诈政策",
+            "path": "/refund-and-fraud-policy"
+          }
+        ]
+      },
+      "copyright": "© {year} Pixelfox Video. 保留所有权利。"
+    }
+  },
+  "dialog": {
+    "login": {
+      "title": "Pixelfox.AI",
+      "subtitle": "一键图片编辑",
+      "form_title": "欢迎回来",
+      "form_subtitle": "登录您的账户",
+      "account": "账户",
+      "password": "密码",
+      "account_placeholder": "请输入您的账户",
+      "password_placeholder": "请输入您的密码",
+      "login": "登录",
+      "no_account": "还没有账户？",
+      "signup": "注册",
+      "tags": [
+        "多风格模特肖像生成",
+        "场景化产品图像创作",
+        "局部图像重新设计",
+        "人物和物体移除",
+        "一键智能抠图",
+        "AI面部美化"
+      ]
+    },
+    "register": {
+      "title": "免费注册",
+      "form_title": "创建您的账户",
+      "form_subtitle": "无需信用卡 – 注册即送10个免费积分！",
+      "account": "账户",
+      "code": "验证码",
+      "password": "密码",
+      "account_placeholder": "请输入您的账户",
+      "password_placeholder": "请输入您的密码",
+      "code_placeholder": "请输入验证码",
+      "send_code": "发送验证码",
+      "send_code_success": "验证码发送成功",
+      "register": "注册",
+      "has_account": "已有账户？",
+      "login": "登录",
+      "banner": [
+        {
+          "content":
+          "我最近有机会使用它，结果令人印象深刻。易用性加上输出的准确性和质量真的让我惊叹不已。",
+          "name": "Emily S.",
+          "user": "数字艺术家",
+          "avatar": "https://api.pixelfox.ai/template/user/user-thumb-1.webp"
+        },
+        {
+          "content":
+          "我最近有机会使用它，我必须说，结果令人印象深刻。易用性加上输出的准确性和质量真的让我惊叹不已。",
+          "name": "John D.",
+          "user": "产品摄影师",
+          "avatar": "https://api.pixelfox.ai/template/user/user-thumb-2.webp"
+        },
+        {
+          "content":
+          "我最近有机会使用它，我必须说，结果令人印象深刻。易用性加上输出的准确性和质量真的让我惊叹不已。",
+          "name": "Rachel W.",
+          "user": "店主",
+          "avatar": "https://api.pixelfox.ai/template/user/user-thumb-3.webp"
+        }
+      ]
+    }
+  },
+  "page": {
+    "index": {
+      "title": "AI 图片/视频编辑器 - 免费在线编辑处理",
+      "description": "Pixelfox AI 是最佳的免费 AI 图片编辑工具之一，专为自动编辑图像和照片而设计。立即开始编辑您的照片。",
+      "keywords": "AI 图片编辑器, AI 图像编辑器, 免费 AI 图片编辑器, AI 图片编辑器免费, 最佳 AI 图片编辑器, 免费 AI 图像编辑器",
+      "header": {
+        "title": "选择您的方案",
+        "subtitle": "借助AI技术，Pixelfox让每个人都能轻松创建专业产品摄影、专用AI服装模型并打造自己的品牌！"
+      },
+      "easier": {
+        "title": "帮助全球创作者和企业的各项工作更轻松",
+        "list": [
+          {
+            "title": "TikTok 标志",
+            "img": "https://api.pixelfox.ai/template/logos/TikTok.png"
+          },
+          {
+            "title": "康奈尔大学 标志",
+            "img": "https://api.pixelfox.ai/template/logos/CornellUniversity.png"
+          },
+          {
+            "title": "亚马逊 标志",
+            "img": "https://api.pixelfox.ai/template/logos/Amazon.png"
+          },
+          {
+            "title": "YouTube 标志",
+            "img": "https://api.pixelfox.ai/template/logos/YouTube.png"
+          },
+          {
+            "title": "谷歌 标志",
+            "img": "https://api.pixelfox.ai/template/logos/Google.png"
+          },
+          {
+            "title": "Instagram 标志",
+            "img": "https://api.pixelfox.ai/template/logos/Instagram.png"
+          },
+          {
+            "title": "LinkedIn 标志",
+            "img": "https://api.pixelfox.ai/template/logos/Linkedin.png"
+          },
+          {
+            "title": "微软 标志",
+            "img": "https://api.pixelfox.ai/template/logos/Microsoft.png"
+          }
+        ]
+      },
+      "case": {
+        "tab": [
+          {
+            "label": "精选",
+            "value": 1
+          },
+          {
+            "label": "镜头控制",
+            "value": 2
+          },
+          {
+            "label": "特效玩法",
+            "value": 3
+          },
+          {
+            "label": "数字人",
+            "value": 4
+          },
+          {
+            "label": "唇形同步",
+            "value": 5
+          },
+          {
+            "label": "动作模仿",
+            "value": 6
+          },
+          {
+            "label": "图片生成",
+            "value": 7
+          },
+          {
+            "label": "商品转绘",
+            "value": 8
+          }
+        ]
+      },
+      "ability": {
+        "main_title": "核心优势",
+        "subtitle": "拥有全面工具集的照片编辑器",
+        "desc": "Pixelfox 是您的一体化免费AI照片修饰工具和高清在线照片编辑器，专为无缝照片修饰和创意编辑而设计。无论您想要修饰照片、移除背景、放大图像，还是生成令人惊叹的AI艺术作品，我们的AI照片编辑工具包都能满足您的需求。无需下载，您可以随时随地免费在线编辑照片。从快速照片修饰修复到高级AI照片编辑转换，Pixelfox 让一切变得简单。立即开始使用我们的照片修饰工具，以最佳免费AI照片编辑器体验将您的创意提升到新高度！",
+        "list": [
+          {
+            "title": "10M",
+            "desc": "已处理图片",
+            "icon": "https://api.pixelfox.ai/template/home/Picture.webp"
+          },
+          {
+            "title": "5-Second",
+            "desc": "处理速度",
+            "icon": "https://api.pixelfox.ai/template/home/heart.webp"
+          },
+          {
+            "title": "95%",
+            "desc": "满意率",
+            "icon": "https://api.pixelfox.ai/template/home/badge.webp"
+          }
+        ]
+      },
+      "remove": {
+        "title": "如何使用 PixelFox AI 文本提示编辑图片？",
+        "desc": "PixelFox AI 照片编辑器让编辑图片变得像告诉它您想要什么一样简单。只需三个步骤即可用您的话语更新任何图片：",
+        "list": [
+          {
+            "image": "https://api.pixelfox.ai/template/home/step_1.webp",
+            "title": "上传您的图片",
+            "desc": "点击\"上传\"或拖放您的图片。PixelFox AI 带文本提示的照片编辑器支持 JPG、PNG、GIF 或 WEBP 格式，最大 20MB 或 4096x4096 尺寸。"
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/home/step_2.webp",
+            "title": "输入您的提示",
+            "desc": "用您自己的话和风格来写。示例：让我看起来像卡通人物、移除背景、添加赛博朋克城市作为背景。"
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/home/step_3.webp",
+            "title": "生成并下载",
+            "desc": "PixelFox AI 照片修饰工具将在几秒钟内分析您的照片。查看预览，保存您的高质量结果，并立即分享或回收利用。"
+          }
+        ]
+      },
+      "highlight": {
+        "main_title": "AI 图片编辑",
+        "subtitle": "使用文本提示",
+        "list": [
+          {
+            "image": "https://api.pixelfox.ai/template/image-edit/edit1.webp",
+            "title": "使用自然语言提示编辑",
+            "desc": "无需学习复杂的工具集、菜单或图层，使用 PixelFox 您只需告诉它要做什么就可以编辑图片。想把天空变成星系？或者做成雪景背景？只需输入文字，AI 就会完成。这种拖放界面降低了进行终极编辑的门槛，非常适合非设计专家的用户。您可以使用 PixelFox 不仅制作社交媒体内容，还可以制作数字艺术和快速制作的产品模型，PixelFox 会将您的所有指示转换为视觉上和谐一致的精确编辑。",
+            "linkText": "立即体验",
+            "linkUrl": "/image/image-edit/edit"
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/image-edit/edit2.webp",
+            "title": "智能图片上下文感知",
+            "desc": "PixelFox 不仅仅是改变像素，而是了解图片。我们的AI会彻底检查光线、阴影、面部结构、背景细节、每张图片上物体的位置，以确保所有编辑都能融入原始图片。举例说明，当您说要改变背景为日落时，系统会自动调整主体中的光线和阴影，使其呈现温暖的日落色调。这样即使是大胆的改动看起来也很自然、逼真且符合场景。结果如何？图片不仅看起来像经过编辑的，而且看起来就像是以那种方式拍摄的。",
+            "linkText": "立即体验",
+            "linkUrl": "/image/image-edit/edit"
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/image-edit/edit3.webp",
+            "title": "先进模型融合带来卓越效果",
+            "desc": "PixelFox 具有罕见的精确性和创造性结合，因为用于文本编辑的 InstructPix2Pix 模型和用于修复图片的 Stable Diffusion Img2Img 模型各有优缺点，并通过 PixelFox 进行最优组合。它具有这种双模态架构，使您的修正与提示相比更加准确，同时也具有很高的视觉准确性。在处理各种类型的图片时表现出色：自拍、肖像、风景照片、时尚和产品图片，甚至数字艺术。无论您的需求多么强烈，都能期待清晰的边缘、均匀的色调和少量伪影。",
+            "linkText": "立即体验",
+            "linkUrl": "/image/image-edit/edit"
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/image-edit/edit4.webp",
+            "title": "多图合成支持",
+            "desc": "想要设计分层营销视觉、概念艺术或社交媒体横幅？PixelFox 让您轻松混合或组合多张图片。只需发布您想要合并的图片并解释您看到的内容——例如，将这个人物的图片粘贴到海滩背景上，或将这两件商品在木桌上合并。我们的AI会考虑透视、大小、光线、边缘平滑度，形成看起来一致且专业设计的自然合成。这在电子商务、广告和视觉叙事媒体中特别有用，视觉一致性至关重要。",
+            "linkText": "立即体验",
+            "linkUrl": "/image/image-edit/edit"
+          }
+        ]
+      },
+      "feature": {
+        "list": [
+          {
+            "image": "https://api.pixelfox.ai/template/home/icon-feature-1.svg",
+            "title": "闪电般快速处理",
+            "desc": "AI 编辑在 10-30 秒内完成，让您快速探索多种创意方向。"
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/home/icon-feature-2.svg",
+            "title": "无需设计经验",
+            "desc": "初学者和专业用户都能以零学习曲线获得工作室质量的结果。"
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/home/icon-feature-3.svg",
+            "title": "自定义控制选项",
+            "desc": "调整强度、变换强度、纵横比等，以获得量身定制的结果。"
+          },
+          {
+            "image": "https://api.pixelfox.ai/template/home/icon-feature-4.svg",
+            "title": "安全私密的编辑",
+            "desc": "上传的图片会在几小时内自动删除——您的内容永远不会在未经同意的情况下被使用或分享。"
+          }
+        ]
+      },
+      "toolset": {
+        "main_title": "强大的AI",
+        "subtitle": "拥有完整工具集的照片编辑器",
+        "desc": "所有实用的编辑工具都准备好在一个高清在线照片编辑器——Pixelfox AI 中。看看我们的在线图片编辑器能做什么，免费试用！",
+        "button": "探索所有工具",
+        "list": [
+          {
+            "title": "扩展图片",
+            "desc": "在几秒钟内轻松取消裁剪并扩展图片，创建令人惊叹的图像",
+            "img": "https://api.pixelfox.ai/template/image-extender/feature_5.webp",
+            "svg": "icon-kuozhan",
+            "link": "/image/extender"
+          },
+          {
+            "title": "图片增强器",
+            "desc": "轻松提高图片质量，改善清晰度、颜色和分辨率",
+            "img": "https://api.pixelfox.ai/template/image-enhancer/feat_6.webp",
+            "svg": "icon-zengqiangbeifen",
+            "link": "/image/enhancer"
+          },
+          {
+            "title": "照片放大",
+            "desc": "将图片放大 200% 或 400%，而不会损失质量",
+            "img": "https://api.pixelfox.ai/template/image-upscaler/feat_1.webp",
+            "svg": "icon-fangda",
+            "link": "/image/upscaler"
+          },
+          {
+            "title": "照片着色器",
+            "desc": "轻松在线为老照片和黑白图片着色",
+            "img": "https://api.pixelfox.ai/template/colorizeimage/feature_3.webp",
+            "svg": "icon-shangse1",
+            "link": "/image/colorizer"
+          },
+          {
+            "title": "风格转换",
+            "desc": "使用著名画家风格和效果将图片转换为艺术作品",
+            "img": "https://api.pixelfox.ai/template/extendimagestyle/feature_1.webp",
+            "svg": "icon-tuxiangfenggezhuanhuan",
+            "link": "/image/style-transfer"
+          },
+          {
+            "title": "图片颜色更改器",
+            "desc": "更改图片颜色，探索无限可能性",
+            "img": "https://api.pixelfox.ai/template/recolorimage/feature_1.webp",
+            "svg": "icon-kuaisuxiutu",
+            "link": "/image/recolor"
+          }
+        ]
+      },
+      "faq": {
+        "title": "常见问题",
+        "list": [
+          {
+            "title": "我可以使用 PixelFox AI 图片编辑器做什么？",
+            "content": "移除或编辑背景、编辑样式、插入或删除对象、合并图片、卡通化人脸、提高质量等等；只需输入您想要的内容。"
+          },
+          {
+            "title": "AI 生成的编辑有多逼真？",
+            "content": "非常逼真。PixelFox AI 会评估阴影、光线和深度，以实现符合照片原始背景的质量结果。"
+          },
+          {
+            "title": "我可以将 AI 编辑的图片用于商业用途吗？",
+            "content": "可以。付费方案的每个结果都具有完整的商业使用许可，可用于营销、印刷、电子商务或几乎任何商业用途。"
+          },
+          {
+            "title": "我可以将 Pixelfox AI 文本转图片转换器用于商业项目吗？",
+            "content": "当然可以！AI 生成的图片可用于个人和商业项目，如营销活动、教育资源、创意设计等。"
+          },
+          {
+            "title": "支持哪些文件格式和大小？",
+            "content": "完整支持 JPEG、PNG、GIF 和 WEBP 格式，最大 20MB 和 4096x4096 分辨率。"
+          },
+          {
+            "title": "如果编辑结果不符合我的预期怎么办？",
+            "content": "清理并更清楚地描述，或者将复杂的修改分解为一系列小步骤。PixelFox 还允许您重新尝试其他选项，直到获得您想要的结果。"
+          }
+        ]
+      }
+    },
+    "price": {
+      "title": "价格",
+      "description": "助力编程代码开发、创意写作、文件处理等任务，支持文件上传及长文本对话，随时为您提供高效的AI支持。",
+      "keywords": "大语言模型,自然语言处理,AI聊天机器人,代码开发,创意写作,AI助手,长文本对话,文件处理AI,大模型公司,人工智能,AI开发助手",
+      "config": {
+        "title": "选择您的套餐",
+        "desc": "借助AI技术，Pixelfox让每个人轻松创建专业的产品摄影、专属AI服装模型并打造自己的品牌！",
+        "standard": {
+          "title": "标准套餐",
+          "mostPopular": "最受欢迎",
+          "hobby": {
+            "title": "免费套餐",
+            "desc": "适用于个人或非商业项目",
+            "free": {
+              "title": "免费",
+              "tags": [
+                "注册即获10个奖励积分",
+                "无限量免费图片及视频处理预览（不含生成功能）",
+                "无限次下载"
+              ]
+            },
+            "buttonText": "免费注册",
+            "footerTips": "永久免费——适用于个人或单次项目"
+          },
+          "pro": {
+            "title": "专业套餐",
+            "desc": "专业套餐",
+            "credit": " 积分",
+            "creditType": [
+              {
+                "title": "网页",
+                "type": "web"
+              },
+              {
+                "title": "iOS",
+                "type": "ios"
+              },
+              {
+                "title": "Android",
+                "type": "android"
+              },
+              {
+                "title": "API",
+                "type": "api"
+              }
+            ],
+            "creditTips": "积分在网页、移动应用和API之间共享",
+            "payMonthly": "按月付费",
+            "payYearly": "按年付费",
+            "unit": "积分/月",
+            "off": "优惠50%",
+            "viewMore": "查看更多",
+            "collapse": "收起",
+            "everything": "享有免费套餐所有权益，并额外获得",
+            "everythingTags": [
+              "每月固定积分（未使用积分可顺延至下周期）",
+              "下载高清图片和完整版视频"
+            ],
+            "buttonText": "立即订阅",
+            "footerTips": "根据您的月度需求选择任意积分级别。<br />只要您保持订阅，未使用积分即可顺延至下一个计费周期。"
+          },
+          "flexible": {
+            "title": "灵活套餐",
+            "desc": "按使用量付费",
+            "credit": " 积分",
+            "creditType": [
+              {
+                "title": "网页",
+                "type": "web"
+              },
+              {
+                "title": "iOS",
+                "type": "ios"
+              },
+              {
+                "title": "Android",
+                "type": "android"
+              },
+              {
+                "title": "API",
+                "type": "api"
+              }
+            ],
+            "creditTips": "积分在网页、移动应用和API之间共享",
+            "unit": " 积分",
+            "viewMore": "查看更多",
+            "collapse": "收起",
+            "everything": "享有免费套餐所有权益，并额外获得",
+            "everythingTags": [
+              "按使用量付费，无需月费",
+              "积分有效期为1年，可随时重新激活",
+              "下载高清图片和完整版视频"
+            ],
+            "buttonText": "立即购买",
+            "footerTips": "一次性购买，助力业务扩展"
+          },
+          "payment": {
+            "title": "选择支付方式",
+            "subtitle": "请选择您偏好的支付方式完成购买"
+          }
+        },
+        "custom": {
+          "title": "定制套餐",
+          "subtitle": "定制化方案",
+          "desc": "希望定制化您的使用需求？请联系我们！",
+          "buttonText": "提交申请",
+          "tips": "点击提交即表示您已阅读并接受我们的 <a href=\"#\">服务条款</a> 和 <a href=\"#\">隐私政策</a>。提交申请后，您同意接收来自Pixelfox的营销邮件，您可随时点击邮件中的\"退订\"链接取消订阅。",
+          "form": [
+            {
+              "key": "first_name",
+              "label": "名字",
+              "type": "text",
+              "placeholder": "请输入您的名字",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "请输入您的名字",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "last_name",
+              "label": "姓氏",
+              "type": "text",
+              "placeholder": "请输入您的姓氏",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "请输入您的姓氏",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "email",
+              "label": "商务邮箱",
+              "type": "text",
+              "placeholder": "请输入您的商务邮箱",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "请输入您的邮箱",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "website",
+              "label": "公司网站",
+              "type": "text",
+              "placeholder": "请输入公司网站地址",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "请输入您的公司网站",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "user_number",
+              "label": "每月图片与视频使用量",
+              "type": "select",
+              "placeholder": "请选择您的月度使用量",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "请选择",
+                  "trigger": "blur"
+                }
+              ],
+              "options": [
+                {
+                  "label": "0-100",
+                  "value": 1
+                },
+                {
+                  "label": "101-500",
+                  "value": 2
+                },
+                {
+                  "label": "501-1000",
+                  "value": 3
+                },
+                {
+                  "label": "1001-3000",
+                  "value": 4
+                },
+                {
+                  "label": "3000+",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "key": "server",
+              "label": "我们的服务",
+              "type": "tags",
+              "placeholder": "请选择您感兴趣的服务",
+              "required": false,
+              "rule": [],
+              "options": [
+                {
+                  "label": "AI 模型 - 人体模特",
+                  "value": 1
+                },
+                {
+                  "label": "AI 模型 - 平铺摄影",
+                  "value": 2
+                },
+                {
+                  "label": "AI 背景生成器",
+                  "value": 3
+                },
+                {
+                  "label": "AI 图像扩展器",
+                  "value": 4
+                },
+                {
+                  "label": "视频质量增强器",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "key": "scene",
+              "label": "应用场景",
+              "type": "text",
+              "placeholder": "请描述您的应用场景",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "请描述您的应用场景",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "where_know_me",
+              "label": "您是如何得知我们的？",
+              "type": "select",
+              "placeholder": "请选择您如何得知我们的",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "请选择您如何得知我们的",
+                  "trigger": "blur"
+                }
+              ],
+              "options": [
+                {
+                  "label": "网络搜索",
+                  "value": 1
+                },
+                {
+                  "label": "社交媒体",
+                  "value": 2
+                },
+                {
+                  "label": "播客",
+                  "value": 3
+                },
+                {
+                  "label": "口碑/推荐",
+                  "value": 4
+                },
+                {
+                  "label": "社区",
+                  "value": 5
+                },
+                {
+                  "label": "其他",
+                  "value": 6
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "generate": {
+      "title": "AI 视频和图片生成 - 免费在线生成器",
+      "description": "使用 Pixelfox 创建令人惊艳的 AI 生成视频和图片。从文本生成视频、创建数字人、同步唇形、模仿动作。为创作者提供的免费 AI 生成工具。",
+      "keywords": "AI视频生成, AI图片生成, 数字人, 对口型, 动作模仿, 免费AI生成器, 文本转视频, AI视频创作, 视频生成工具, 图片生成工具"
+    }
+  },
+  "pages": {
+    "price": {
+      "title": "价格",
+      "description": "助力编程代码开发、创意写作、文件处理等任务，支持文件上传及长文本对话，随时为您提供高效的AI支持。",
+      "keywords": "大语言模型,自然语言处理,AI聊天机器人,代码开发,创意写作,AI助手,长文本对话,文件处理AI,大模型公司,人工智能,AI开发助手",
+      "config": {
+        "title": "选择您的套餐",
+        "desc": "借助AI技术，Pixelfox让每个人轻松创建专业的产品摄影、专属AI服装模型并打造自己的品牌！",
+        "standard": {
+          "title": "标准套餐",
+          "mostPopular": "最受欢迎",
+          "hobby": {
+            "title": "免费套餐",
+            "desc": "适用于个人或非商业项目",
+            "free": {
+              "title": "免费",
+              "tags": [
+                "注册即获10个奖励积分",
+                "无限量免费图片及视频处理预览（不含生成功能）",
+                "无限次下载"
+              ]
+            },
+            "buttonText": "免费注册",
+            "footerTips": "永久免费——适用于个人或单次项目"
+          },
+          "pro": {
+            "title": "专业套餐",
+            "desc": "专业套餐",
+            "credit": " 积分",
+            "creditType": [
+              {
+                "title": "网页",
+                "type": "web"
+              },
+              {
+                "title": "iOS",
+                "type": "ios"
+              },
+              {
+                "title": "Android",
+                "type": "android"
+              },
+              {
+                "title": "API",
+                "type": "api"
+              }
+            ],
+            "creditTips": "积分在网页、移动应用和API之间共享",
+            "payMonthly": "按月付费",
+            "payYearly": "按年付费",
+            "unit": "积分/月",
+            "off": "优惠50%",
+            "viewMore": "查看更多",
+            "collapse": "收起",
+            "everything": "享有免费套餐所有权益，并额外获得",
+            "everythingTags": [
+              "每月固定积分（未使用积分可顺延至下周期）",
+              "下载高清图片和完整版视频"
+            ],
+            "buttonText": "立即订阅",
+            "footerTips": "根据您的月度需求选择任意积分级别。<br />只要您保持订阅，未使用积分即可顺延至下一个计费周期。"
+          },
+          "flexible": {
+            "title": "灵活套餐",
+            "desc": "按使用量付费",
+            "credit": " 积分",
+            "creditType": [
+              {
+                "title": "网页",
+                "type": "web"
+              },
+              {
+                "title": "iOS",
+                "type": "ios"
+              },
+              {
+                "title": "Android",
+                "type": "android"
+              },
+              {
+                "title": "API",
+                "type": "api"
+              }
+            ],
+            "creditTips": "积分在网页、移动应用和API之间共享",
+            "unit": " 积分",
+            "viewMore": "查看更多",
+            "collapse": "收起",
+            "everything": "享有免费套餐所有权益，并额外获得",
+            "everythingTags": [
+              "按使用量付费，无需月费",
+              "积分有效期为1年，可随时重新激活",
+              "下载高清图片和完整版视频"
+            ],
+            "buttonText": "立即购买",
+            "footerTips": "一次性购买，助力业务扩展"
+          },
+          "payment": {
+            "title": "选择支付方式",
+            "subtitle": "请选择您偏好的支付方式完成购买"
+          }
+        },
+        "custom": {
+          "title": "定制套餐",
+          "subtitle": "定制化方案",
+          "desc": "希望定制化您的使用需求？请联系我们！",
+          "buttonText": "提交申请",
+          "tips": "点击提交即表示您已阅读并接受我们的 <a href=\"#\">服务条款</a> 和 <a href=\"#\">隐私政策</a>。提交申请后，您同意接收来自Pixelfox的营销邮件，您可随时点击邮件中的\"退订\"链接取消订阅。",
+          "form": [
+            {
+              "key": "first_name",
+              "label": "名字",
+              "type": "text",
+              "placeholder": "请输入您的名字",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "请输入您的名字",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "last_name",
+              "label": "姓氏",
+              "type": "text",
+              "placeholder": "请输入您的姓氏",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "请输入您的姓氏",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "email",
+              "label": "商务邮箱",
+              "type": "text",
+              "placeholder": "请输入您的商务邮箱",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "请输入您的邮箱",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "website",
+              "label": "公司网站",
+              "type": "text",
+              "placeholder": "请输入公司网站地址",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "请输入您的公司网站",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "user_number",
+              "label": "每月图片与视频使用量",
+              "type": "select",
+              "placeholder": "请选择您的月度使用量",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "请选择",
+                  "trigger": "blur"
+                }
+              ],
+              "options": [
+                {
+                  "label": "0-100",
+                  "value": 1
+                },
+                {
+                  "label": "101-500",
+                  "value": 2
+                },
+                {
+                  "label": "501-1000",
+                  "value": 3
+                },
+                {
+                  "label": "1001-3000",
+                  "value": 4
+                },
+                {
+                  "label": "3000+",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "key": "server",
+              "label": "我们的服务",
+              "type": "tags",
+              "placeholder": "请选择您感兴趣的服务",
+              "required": false,
+              "rule": [],
+              "options": [
+                {
+                  "label": "AI 模型 - 人体模特",
+                  "value": 1
+                },
+                {
+                  "label": "AI 模型 - 平铺摄影",
+                  "value": 2
+                },
+                {
+                  "label": "AI 背景生成器",
+                  "value": 3
+                },
+                {
+                  "label": "AI 图像扩展器",
+                  "value": 4
+                },
+                {
+                  "label": "视频质量增强器",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "key": "scene",
+              "label": "应用场景",
+              "type": "text",
+              "placeholder": "请描述您的应用场景",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "请描述您的应用场景",
+                  "trigger": "blur"
+                }
+              ],
+              "options": []
+            },
+            {
+              "key": "where_know_me",
+              "label": "您是如何得知我们的？",
+              "type": "select",
+              "placeholder": "请选择您如何得知我们的",
+              "required": true,
+              "rule": [
+                {
+                  "required": true,
+                  "message": "请选择您如何得知我们的",
+                  "trigger": "blur"
+                }
+              ],
+              "options": [
+                {
+                  "label": "网络搜索",
+                  "value": 1
+                },
+                {
+                  "label": "社交媒体",
+                  "value": 2
+                },
+                {
+                  "label": "播客",
+                  "value": 3
+                },
+                {
+                  "label": "口碑/推荐",
+                  "value": 4
+                },
+                {
+                  "label": "社区",
+                  "value": 5
+                },
+                {
+                  "label": "其他",
+                  "value": 6
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "user": {
+      "credit": "积分",
+      "balance": "余额",
+      "pointExpirationTime": "积分到期时间",
+      "info": "基本信息",
+      "account": "账号绑定",
+      "rechargeLog": "充值日志",
+      "consumptionLog": "消耗记录",
+      "subscribeLog": "订阅记录",
+      "inviteRewardLog": "邀请奖励记录",
+      "screenshotLog": "截图记录",
+      "nickname": "昵称",
+      "gender": "性别",
+      "email": "邮箱",
+      "personal_profile": "个人简介",
+      "please_enter_nickname": "请输入昵称",
+      "please_select_gender": "请选择性别",
+      "please_enter_email": "请输入邮箱",
+      "please_enter_personal_profile": "请输入个人简介",
+      "man": "男",
+      "woman": "女",
+      "delete_user": "删除账号",
+      "warning": "警告",
+      "delete_user_text": "删除账号后，所有数据将无法恢复，请谨慎操作！",
+      "delete_user_confirm_text": "您确定要删除账号吗？此操作不可逆，所有数据将被永久删除！",
+      "cancel": "取消",
+      "confirm": "确认",
+      "delete_user_success": "账号删除成功",
+      "delete_user_failed": "删除账号失败",
+      "saving": "保存中",
+      "save_changes": "保存更改",
+      "save_success": "保存成功",
+      "save_failed": "保存失败",
+      "confidential_mobile_phone": "密保手机",
+      "already_bound_phone": "已绑定手机",
+      "go_modify_it": "去修改",
+      "confidential_email": "密保邮箱",
+      "already_bound_email": "已绑定邮箱",
+      "security_question": "密保问题",
+      "no_security_issue_set": "未设置密保问题",
+      "go_set_it_up": "去设置",
+      "bind_QQ": "绑定QQ",
+      "currently_unbound_QQ_account": "当前未绑定QQ账号",
+      "go_bind_it": "去绑定",
+      "bind_wechat": "绑定微信",
+      "currently_unbound_wechat_account": "当前未绑定微信账号",
+      "bind_alipay": "绑定支付宝",
+      "currently_unbound_alipay_account": "当前未绑定支付宝账号",
+      "title": "标题",
+      "amount": "金额",
+      "pay_amount": "支付金额",
+      "pay_time": "支付时间",
+      "total": "共",
+      "records": "条",
+      "memo": "备忘录",
+      "score": "积分",
+      "before": "之前",
+      "after": "之后",
+      "create_time": "创建时间",
+      "no_data": "暂无数据",
+      "img": "图片",
+      "share_url": "分享地址",
+      "status": "状态",
+      "description": "描述",
+      "price": "价格",
+      "action": "操作",
+      "normal": "正常",
+      "cancelled": "已取消",
+      "unsubscribe": "取消订阅",
+      "cancel_text": "您确定要取消订阅吗？此操作是不可逆的",
+      "unsubscribe_success": "取消订阅成功",
+      "type": "类型"
+    },
+    "share": {
+      "how_do_work": "怎么运行的？",
+      "eveyone_sign_in_send_points": "每日签到赠送积分",
+      "sign_in": "签到",
+      "sign_in_success": "签到成功",
+      "sign_in_failed": "签到失败",
+      "on_social_share": "在社交媒体上分享",
+      "invite_friend_register": "邀请1位好友注册",
+      "score": "积分",
+      "text_image_video_generation": "文本,图片,视频生成",
+      "invite_friend_subscription": "邀请1位好友订阅",
+      "earn_30_commission": "赚取 30% 佣金。",
+      "invite_now": "立即邀请。",
+      "copy": "复制",
+      "copy_success": "复制成功",
+      "copy_error": "复制失败",
+      "register_get_free_score": "立即注册并获得免费积分",
+      "view_more_rewards": "查看更多奖励",
+      "check_more_rewards": "检查更多奖励",
+      "faq_h_t_o": "常见问题解答（如何运作）",
+      "can_get_rewards_q": "我可以通过社交媒体分享累积奖励吗？",
+      "can_get_rewards_a": "绝对地！对于每个经过验证的社交媒体帖子，您可以获得 10积分。通过在您喜欢的社交媒体平台上分享链接，您总共可以获得最多 10积分。",
+      "can_get_rewards_q1": "撰写有关 Pixelfox.AI 的评论可以得到多少积分？",
+      "can_get_rewards_a1": "通过在 G2 和 Chrome 网上商店发布基于事实且以产品为中心的 Pixelfox.AI评论，经核实后，每条评论可获得 10 积分。每个平台仅接受 1 条评论帖子。",
+      "can_get_rewards_q2": "在社交媒体上发布链接或分享评论后如何获得奖励？",
+      "can_get_rewards_a2": "导航到帐户设置中的\"奖励\"选项卡，然后查找\"上传屏幕截图\"按钮。提供您的社交媒体帖子或Pixelfox.AI产品评论的证明，以便我们的支持团队验证奖励并将其应用到您的帐户。",
+      "can_get_rewards_q3": "Pixelfox.AI 的\"邀请好友\"功能如何运作？",
+      "can_get_rewards_a3": "当您邀请朋友并且他们在 Pixelfox.AI上注册帐户时，您和您的朋友都将获得免费积分作为奖励。如果受邀者决定订阅我们的付费计划之一并成功完成付款，您和您的朋友都将获得额外的积分作为奖励。",
+      "can_get_rewards_q4": "如何查看我的邀请进度？",
+      "can_get_rewards_a4": "您可以随时访问帐户设置中的\"奖励\"选项卡来跟踪邀请进度。您可以通过邀请链接查看注册和成功订阅的数量，以及从推荐计划中赚取的积分。"
+    }
+  }
+}

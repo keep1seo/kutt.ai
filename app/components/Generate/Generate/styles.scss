@@ -1,0 +1,1001 @@
+// 共享的表单样式
+.editor-input-area {
+  background: #ffffff;
+  height: 156.8px;
+  width: 100%;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  display: flex;
+  flex-direction: column;
+
+  @media (prefers-color-scheme: dark) {
+    background: #1b1b20;
+  }
+
+  @media (max-width: 767px) {
+    height: auto;
+    min-height: auto;
+    padding: 12px 12px 0 12px;
+    border-radius: 0;
+    overflow-y: auto;
+    max-height: calc(70vh - 60px);
+  }
+}
+
+.editor-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 200px;
+  color: #64748b;
+  font-size: 14px;
+
+  @media (prefers-color-scheme: dark) {
+    color: #94a3b8;
+  }
+}
+
+.editor-input-row {
+  display: flex;
+  margin-top: 12px;
+  height: 92px;
+
+  @media (max-width: 767px) {
+    flex-direction: row;
+    margin-top: 0;
+    gap: 8px;
+    height: 92px;
+    min-height: 92px;
+    align-items: flex-start;
+  }
+}
+
+.editor-input-controls {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0 8px;
+
+  @media (max-width: 767px) {
+    padding: 0;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+}
+
+.editor-upload-btn-wrapper {
+  flex-shrink: 0;
+  width: 62px;
+  height: 82px;
+  border-color: #ededed;
+
+  @media (max-width: 767px) {
+    width: 60px;
+    height: 75px;
+  }
+}
+
+.editor-upload-btn {
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 200ms;
+  position: relative;
+
+  &:hover {
+    border-color: #722ed1;
+    background: rgba(114, 46, 209, 0.04);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    border-color: rgba(229, 231, 235, 0.1);
+    background: rgba(255, 255, 255, 0.02);
+
+    &:hover {
+      border-color: #b37feb;
+      background: rgba(179, 127, 235, 0.08);
+    }
+  }
+}
+
+.editor-upload-btn-role {
+  border-radius: 8px;
+}
+
+.editor-upload-preview {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+
+  @media (prefers-color-scheme: dark) {
+    border-color: rgba(229, 231, 235, 0.1);
+  }
+}
+
+.editor-upload-preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.editor-upload-remove-btn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 200ms;
+  color: #ffffff;
+  padding: 0;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.7);
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  svg {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.editor-upload-voice-preview {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  gap: 4px;
+
+  @media (prefers-color-scheme: dark) {
+    background: rgba(255, 255, 255, 0.02);
+    border-color: rgba(229, 231, 235, 0.1);
+  }
+}
+
+.editor-upload-voice-icon {
+  color: #722ed1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2px;
+
+  @media (prefers-color-scheme: dark) {
+    color: #b37feb;
+  }
+}
+
+.editor-upload-voice-name {
+  font-size: 11px;
+  color: #475569;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  line-height: 1.2;
+
+  @media (max-width: 767px) {
+    font-size: 10px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: #cbd5e1;
+  }
+}
+
+.editor-upload-remove-btn-voice {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 20px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.5);
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  svg {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.editor-upload-video-preview {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  gap: 4px;
+
+  @media (prefers-color-scheme: dark) {
+    background: rgba(255, 255, 255, 0.02);
+    border-color: rgba(229, 231, 235, 0.1);
+  }
+}
+
+.editor-upload-video-icon {
+  color: #722ed1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2px;
+
+  @media (prefers-color-scheme: dark) {
+    color: #b37feb;
+  }
+}
+
+.editor-upload-video-name {
+  font-size: 11px;
+  color: #475569;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  line-height: 1.2;
+
+  @media (max-width: 767px) {
+    font-size: 10px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: #cbd5e1;
+  }
+}
+
+.editor-upload-remove-btn-video {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 20px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.5);
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  svg {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.editor-upload-badge {
+  background: linear-gradient(135deg, rgba(114, 46, 209, 0.15) 0%, rgba(179, 127, 235, 0.15) 100%);
+  font-size: 10px;
+  font-weight: 600;
+  color: #722ed1;
+  height: 16px;
+  line-height: 16px;
+  border-radius: 8px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  padding: 0 6px;
+  border: 1px solid rgba(114, 46, 209, 0.2);
+
+  @media (max-width: 767px) {
+    font-size: 9px;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 4px;
+    top: 3px;
+    left: 3px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    background: linear-gradient(135deg, rgba(179, 127, 235, 0.2) 0%, rgba(114, 46, 209, 0.2) 100%);
+    color: #b37feb;
+    border-color: rgba(179, 127, 235, 0.3);
+  }
+}
+
+.editor-upload-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0;
+}
+
+.editor-upload-icon {
+  margin-bottom: 4px;
+  color: #64748b;
+  transition: color 200ms;
+  width: 16px;
+  height: 16px;
+
+  @media (max-width: 767px) {
+    width: 14px;
+    height: 14px;
+    margin-bottom: 2px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: #94a3b8;
+  }
+}
+
+.editor-upload-btn:hover .editor-upload-icon {
+  color: #722ed1;
+
+  @media (prefers-color-scheme: dark) {
+    color: #b37feb;
+  }
+}
+
+.editor-upload-text {
+  color: #475569;
+  font-size: 12px;
+  font-weight: 500;
+
+  @media (max-width: 767px) {
+    font-size: 11px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: #cbd5e1;
+  }
+}
+
+.editor-upload-text-secondary {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 500;
+
+  @media (prefers-color-scheme: dark) {
+    color: #94a3b8;
+  }
+}
+
+.editor-textarea-wrapper {
+  flex: 1;
+
+  @media (max-width: 767px) {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+.editor-textarea-container {
+  max-height: 100px;
+  overflow: auto;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    max-height: 94px;
+  }
+
+  @media (max-width: 767px) {
+    max-height: 120px;
+  }
+}
+
+.editor-textarea-row {
+  display: flex;
+  gap: 4px;
+  align-items: flex-start;
+  width: 100%;
+
+  @media (max-width: 767px) {
+    gap: 8px;
+  }
+}
+
+.editor-textarea-row-mt {
+  margin-top: 8px;
+
+  @media (max-width: 767px) {
+    margin-top: 12px;
+  }
+}
+
+.editor-textarea-label {
+  color: #64748b;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: #94a3b8;
+  }
+}
+
+.editor-textarea {
+  min-height: 20px;
+  overflow: hidden;
+  overscroll-behavior: none;
+  flex: 1;
+  padding: 0 8px;
+  width: 100%;
+  color: #1f2937;
+  font-size: 14px;
+  border-radius: 0;
+  resize: none;
+  line-height: 20px;
+  background: transparent;
+  border: none;
+
+  &::placeholder {
+    color: #94a3b8;
+  }
+
+  &:focus {
+    outline: none;
+    border: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: #f1f5f9;
+
+    &::placeholder {
+      color: #64748b;
+    }
+  }
+
+  @media (max-width: 767px) {
+    font-size: 14px;
+    padding: 0 6px;
+    line-height: 20px;
+    min-height: 20px;
+  }
+}
+
+.editor-actions {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+  padding-right: 8px;
+  border-top: 1px solid #e5e7eb;
+  position: relative; // PC端需要相对定位，以便右侧按钮绝对定位
+
+  @media (prefers-color-scheme: dark) {
+    border-top-color: rgba(255, 255, 255, 0.1);
+  }
+
+  @media (max-width: 767px) {
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0;
+    gap: 12px;
+    margin-top: 8px;
+    border-top: 1px solid #e5e7eb;
+
+    @media (prefers-color-scheme: dark) {
+      border-top-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+}
+
+.editor-actions-left {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  padding-left: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(114, 46, 209, 0.3) transparent;
+
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(114, 46, 209, 0.3);
+    border-radius: 2px;
+
+    &:hover {
+      background: rgba(114, 46, 209, 0.5);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    scrollbar-color: rgba(179, 127, 235, 0.3) transparent;
+
+    &::-webkit-scrollbar-thumb {
+      background: rgba(179, 127, 235, 0.3);
+
+      &:hover {
+        background: rgba(179, 127, 235, 0.5);
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    // PC端为右侧按钮留出空间，避免被遮挡
+    padding-right: 140px; // 为立即生成按钮和间距留出空间
+  }
+
+  @media (max-width: 767px) {
+    flex: 1;
+    min-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.editor-actions-buttons {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 8px;
+
+  @media (max-width: 767px) {
+    flex-wrap: nowrap;
+    gap: 8px;
+    min-width: min-content;
+  }
+}
+
+.editor-action-btn {
+  border: 1px solid #e5e7eb;
+  gap: 4px;
+  color: #475569;
+  display: flex;
+  height: 34px;
+  align-items: center;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 8px;
+  transition: all 200ms;
+  background: #ffffff;
+  font-weight: 500;
+  white-space: nowrap;
+  flex-shrink: 0;
+
+  &:hover {
+    background: rgba(114, 46, 209, 0.06);
+    border-color: #722ed1;
+    color: #722ed1;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    border-color: rgba(229, 231, 235, 0.1);
+    background: rgba(255, 255, 255, 0.02);
+    color: #cbd5e1;
+
+    &:hover {
+      background: rgba(179, 127, 235, 0.1);
+      border-color: #b37feb;
+      color: #b37feb;
+    }
+  }
+
+  @media (max-width: 767px) {
+    height: 36px;
+    padding: 6px 10px;
+    min-height: 36px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    min-width: auto;
+    justify-content: center;
+
+    &:active {
+      background: rgba(114, 46, 209, 0.1);
+    }
+  }
+}
+
+.editor-action-icon {
+  font-weight: 600;
+  color: inherit;
+}
+
+.editor-action-text {
+  font-size: 14px;
+  color: inherit;
+  overflow: visible;
+  text-overflow: clip;
+  white-space: nowrap;
+  max-width: none;
+
+  @media (max-width: 767px) {
+    font-size: 12px;
+    flex: 0 0 auto;
+    min-width: auto;
+    overflow: visible;
+    text-overflow: clip;
+  }
+}
+
+.editor-action-text-flex {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.editor-action-icon-text {
+  font-weight: 600;
+}
+
+.editor-actions-right {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #64748b;
+  flex-shrink: 0;
+  margin-left: 8px;
+  z-index: 10; // 确保在PC端不会被左侧滚动内容遮挡
+
+  @media (min-width: 768px) {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 0;
+    background: #ffffff; // 添加背景色，避免被滚动内容透过
+
+    @media (prefers-color-scheme: dark) {
+      background: #1b1b20; // 深色模式背景
+    }
+  }
+
+  @media (max-width: 767px) {
+    flex-shrink: 0;
+    margin-left: 0;
+    justify-content: flex-end;
+    display: flex;
+  }
+}
+
+.editor-settings-icon {
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  outline: none;
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  cursor: pointer;
+
+  @media (max-width: 767px) {
+    width: 48px;
+    height: 48px;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.editor-settings-icon-svg {
+  width: 20px;
+  height: 20px;
+  color: #64748b;
+  transition: color 200ms;
+
+  &:hover {
+    color: #722ed1;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: #94a3b8;
+
+    &:hover {
+      color: #b37feb;
+    }
+  }
+}
+
+.editor-generate-btn {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all 200ms;
+  padding: 0 8px;
+  min-width: 48px;
+  height: 28px;
+  color: #fff !important;
+  background: linear-gradient(135deg, #722ed1 0%, #531dab 50%, #b37feb 100%);
+  border: none;
+  cursor: not-allowed;
+  opacity: 0.6;
+  box-shadow: 0 2px 8px rgba(114, 46, 209, 0.2);
+
+  &:not(:disabled):hover {
+    opacity: 1;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(114, 46, 209, 0.3);
+    color: #fff !important;
+  }
+
+  &:not(:disabled) {
+    cursor: pointer;
+    opacity: 1;
+    color: #fff !important;
+  }
+
+  :deep(.ant-btn-loading-icon) {
+    color: #fff !important;
+  }
+
+  @media (min-width: 768px) {
+    width: auto;
+    min-width: 100px;
+    padding: 0 16px;
+  }
+
+  @media (max-width: 767px) {
+    flex: 0 0 auto;
+    height: 36px;
+    min-width: auto;
+    width: auto;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0 16px;
+    white-space: nowrap;
+  }
+}
+
+.editor-generate-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff !important;
+
+  @media (max-width: 767px) {
+    font-size: 13px;
+  }
+}
+
+.editor-generate-send-icon {
+  width: 16px;
+  height: 16px;
+  color: #fff;
+  flex-shrink: 0;
+  margin-right: 6px;
+  display: block;
+
+  @media (max-width: 767px) {
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+  }
+}
+
+.editor-generate-points {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff !important;
+  white-space: nowrap;
+  line-height: 1;
+
+  @media (max-width: 767px) {
+    font-size: 13px;
+  }
+}
+
+.editor-generate-btn-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.editor-generate-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 8px;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(255, 107, 107, 0.4);
+  z-index: 10;
+  line-height: 1.2;
+  transform: scale(0.9);
+
+  @media (max-width: 767px) {
+    font-size: 9px;
+    padding: 2px 5px;
+    top: -5px;
+    right: -5px;
+    transform: scale(0.85);
+  }
+}
+
+.editor-nth-input {
+  width: 50px;
+  flex-shrink: 0;
+
+  @media (max-width: 767px) {
+    width: 45px;
+  }
+  width: 50px;
+  margin: 0 4px;
+
+  :deep(.ant-input-number-input) {
+    text-align: center;
+  }
+}
+
+// 分辨率下拉菜单样式
+:deep(.resolution-dropdown) {
+  .ant-dropdown-menu {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow:
+      0 4px 20px rgba(114, 46, 209, 0.08),
+      0 1px 3px rgba(0, 0, 0, 0.05);
+    padding: 4px;
+    min-width: 120px;
+
+    @media (prefers-color-scheme: dark) {
+      background: #1b1b20;
+      border-color: rgba(229, 231, 235, 0.1);
+    }
+  }
+
+  .ant-dropdown-menu-item {
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: #475569;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 200ms;
+
+    &:hover {
+      background: rgba(114, 46, 209, 0.06);
+      color: #722ed1;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      color: #cbd5e1;
+
+      &:hover {
+        background: rgba(179, 127, 235, 0.1);
+        color: #b37feb;
+      }
+    }
+  }
+
+  .ant-dropdown-menu-item-selected {
+    background: rgba(114, 46, 209, 0.08);
+    color: #722ed1;
+    font-weight: 600;
+
+    @media (prefers-color-scheme: dark) {
+      background: rgba(179, 127, 235, 0.15);
+      color: #b37feb;
+    }
+  }
+}
+
+// 角色上传提示 Popover 样式
+:deep(.role-upload-popover) {
+  .ant-popover-inner {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow:
+      0 4px 20px rgba(114, 46, 209, 0.08),
+      0 1px 3px rgba(0, 0, 0, 0.05);
+    padding: 0;
+    max-width: 240px;
+    width: 240px;
+
+    @media (prefers-color-scheme: dark) {
+      background: #1b1b20;
+      border-color: rgba(229, 231, 235, 0.1);
+    }
+  }
+
+  .ant-popover-inner-content {
+    padding: 0;
+    width: 100%;
+  }
+
+  .ant-popover-arrow {
+    &::before {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+
+      @media (prefers-color-scheme: dark) {
+        background: #1b1b20;
+        border-color: rgba(229, 231, 235, 0.1);
+      }
+    }
+  }
+}
+
+.role-upload-popover-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.role-upload-tip-image {
+  width: 210px;
+  height: auto;
+  max-width: 210px;
+  display: block;
+  border-radius: 8px 8px 0 0;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.role-upload-tip-title {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 12px 12px 6px;
+  text-align: center;
+
+  @media (prefers-color-scheme: dark) {
+    color: #f1f5f9;
+  }
+}
+
+.role-upload-tip-desc {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0 12px 12px;
+  text-align: center;
+
+  @media (prefers-color-scheme: dark) {
+    color: #94a3b8;
+  }
+}
+
